@@ -1,0 +1,7 @@
+electron
+dist-electron
+image.png
+info.txt
+**/*.log
+.env
+.env.*

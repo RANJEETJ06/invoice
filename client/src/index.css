@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-100 text-slate-800;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition;
+}
+.btn-primary {
+  @apply btn bg-brand text-white hover:bg-brand-dark;
+}
+.btn-secondary {
+  @apply btn bg-white text-slate-700 ring-1 ring-slate-300 hover:bg-slate-50;
+}
+.btn-danger {
+  @apply btn bg-red-600 text-white hover:bg-red-700;
+}
+
+.input, .select, .textarea {
+  @apply block w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm
+         focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20;
+}
+.textarea { @apply min-h-[80px]; }
+
+.label { @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500; }
+.card { @apply rounded-lg bg-white shadow-sm ring-1 ring-slate-200; }
+
+.table-base {
+  @apply w-full text-sm;
+}
+.table-base th {
+  @apply bg-slate-50 px-3 py-2 text-left text-xs font-semibold uppercase tracking-wide text-slate-600;
+}
+.table-base td {
+  @apply border-t border-slate-100 px-3 py-2;
+}
+
+@media print {
+  body { background: white; }
+  .no-print { display: none !important; }
+  .print-page { box-shadow: none !important; margin: 0 !important; }
+  @page { size: A4; margin: 10mm; }
+}
+
+/* Invoice print styling */
+.invoice-paper {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 14mm;
+  background: white;
+  color: #1a1a1a;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+.invoice-table th { background: #155235; color: white; font-weight: 600; }
+.invoice-table th, .invoice-table td {
+  border: 1px solid #2c3e50;
+  padding: 6px 8px;
+  font-size: 12px;
+}

@@ -1,0 +1,88 @@
+INVOICE 
+TAX INVOICE
+
+ADIJA TRADEX
+
+GSTIN: 21RDWPS5990H1ZD
+
+Email: info@adijatradex.com
+
+---
+
+Invoice No: __________
+
+Date: ___ / ___ / ______
+
+---
+
+BILL TO
+
+LIBRA NEXON PRIVATE LIMITED
+
+APMC Market, Turbhe, Navi Mumbai
+
+Email: info@libranexon.com
+
+Mobile: +91 9920035315
+
+---
+
+Product| Qty| Unit| Rate (₹)| Amount (₹)
+__________| _____| _____| _____| _____
+__________| _____| _____| _____| _____
+__________| _____| _____| _____| _____
+
+---
+
+Total Amount : ₹ __________
+
+GST : ₹ __________
+
+Grand Total : ₹ __________
+
+---
+
+PAYMENT DETAILS
+
+Account Name: Kuni Swain
+
+Firm Name: Adija Tradex
+
+Account No: 44955157119
+
+---
+
+PAYMENT TERMS
+
+• 30%–40% Payment on Delivery
+
+• Balance Payment within 8–15 Days
+
+---
+
+For ADIJA TRADEX
+
+Authorized Signatory
+
+---
+
+For LIBRA NEXON PRIVATE LIMITED
+
+Authorized Signatory
+
+---
+
+
+
+
+something is forgot that is vehicle number and driver name and contact details. Please add the following section before the product details:
+
+---
+
+VEHICLE DETAILS
+
+Vehicle Number: __________
+
+Driver Name: __________
+
+Driver Contact: __________
